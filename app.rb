@@ -11,7 +11,7 @@ configure do
   end
 
   post '/checkout' do
-    @sessions["item"] = 
+    @sessions["item"] =
   end
 
 end
