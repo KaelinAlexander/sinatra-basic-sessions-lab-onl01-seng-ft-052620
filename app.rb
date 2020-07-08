@@ -16,3 +16,5 @@ configure do
   end
   erb :cart
 end
+
+end
