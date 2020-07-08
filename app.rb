@@ -5,4 +5,8 @@ configure do
   enable :sessions
   set :session_secret, "rng"
 
+  get '/' do
+
+  end 
+
 end
