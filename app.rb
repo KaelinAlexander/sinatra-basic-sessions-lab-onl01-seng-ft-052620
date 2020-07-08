@@ -6,12 +6,12 @@ configure do
   set :session_secret, "rng"
 
   get '/' do
-    @sessions = session
+    @session = session
     erb :index
   end
 
   post '/checkout' do
-    @cart = @sessions["item"] = params[:item]
+    @cart = @session["item"] = params[:item]
   end
 
 end
