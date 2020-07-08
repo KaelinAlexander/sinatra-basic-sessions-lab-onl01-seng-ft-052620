@@ -13,5 +13,5 @@ configure do
   post '/checkout' do
     @cart = @session["item"] = params[:item]
   end
-    
+
 end
