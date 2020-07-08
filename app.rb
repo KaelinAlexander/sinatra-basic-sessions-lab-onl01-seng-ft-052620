@@ -7,6 +7,6 @@ configure do
 
   get '/' do
 
-  end 
+  end
 
 end
