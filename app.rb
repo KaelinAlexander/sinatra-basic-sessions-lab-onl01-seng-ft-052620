@@ -13,8 +13,8 @@ configure do
   post '/checkout' do
     @session["item"] = params[:item]
     @cart = @session
+
+    erb :cart
   end
-  erb :cart
-end
 
 end
