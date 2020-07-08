@@ -6,7 +6,7 @@ configure do
   set :session_secret, "rng"
 
   get '/' do
-
+    erb :index
   end
 
 end
